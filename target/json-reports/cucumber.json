@@ -1,0 +1,97 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-30T16:41:49.091Z",
+        "line": 3,
+        "name": "testing the hotel list on the web page",
+        "description": "",
+        "id": "hotel-list-feature;testing-the-hotel-list-on-the-web-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27675138100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the fhc trip page",
+            "match": {
+              "location": "stepdefinitions.FHCTripHotelList.user_is_on_the_fhc_trip_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18948200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user checks if the Hotel List button appears on the home page",
+            "match": {
+              "location": "stepdefinitions.FHCTripHotelList.user_checks_if_the_Hotel_List_button_appears_on_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d85.0.4183.83)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027FALCON\u0027, ip: \u0027192.168.172.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002714.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.83 (94abc2237ae0c..., userDataDir: C:\\Users\\husey\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 985adaf1e426dc0a8d0d18a3ff0f8ed0\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat stepdefinitions.FHCTripHotelList.user_clicks_on_Hotel_List_button(FHCTripHotelList.java:31)\r\n\tat ✽.user clicks on Hotel List button(file:///C:/Users/husey/IdeaProjects/myfhctripproject/src/test/resources/features/fhctriphotellist.feature:6)\r\n",
+              "duration": 10077137200,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user clicks on Hotel List button",
+            "match": {
+              "location": "stepdefinitions.FHCTripHotelList.user_clicks_on_Hotel_List_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user gets the existing URL and checks it",
+            "match": {
+              "location": "stepdefinitions.FHCTripHotelList.user_gets_the_existing_URL_and_checks_it()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user checks on the page title",
+            "match": {
+              "location": "stepdefinitions.FHCTripHotelList.user_checks_on_the_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hotellist"
+          }
+        ]
+      }
+    ],
+    "name": "Hotel List feature",
+    "description": "",
+    "id": "hotel-list-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/fhctriphotellist.feature",
+    "tags": [
+      {
+        "name": "@hotellist",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
